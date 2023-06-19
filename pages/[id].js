@@ -18,6 +18,7 @@ import {
     query,
 } from '@firebase/firestore';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Login from '../components/Login';
 
 function PostPage({ trendingResults, followResults, providers }) {
     const { data: session } = useSession();
