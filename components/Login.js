@@ -4,7 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 function Login({providers}) {
   return (
     <div className='flex flex-col items-center space-y-20 pt-48'>
-        <TwitterIcon className='object-contain w-[150px] h-[150px]' />
+        <TwitterIcon className='object-contain w-[500px] h-[500px]' />
         <div>
             {Object.values(providers).map((provider) => (
                 <div key={provider.name}>
