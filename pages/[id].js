@@ -68,7 +68,7 @@ function PostPage({ trendingResults, followResults, providers }) {
                 >
                 <ArrowBackIcon className='h-5 text-black' />
                 </div>
-                Tweet
+                Thread
             </div>
 
             <Post id={id} post={post} postPage />
